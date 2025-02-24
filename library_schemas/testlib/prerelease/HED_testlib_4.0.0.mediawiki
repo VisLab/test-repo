@@ -1,0 +1,23 @@
+HED version="4.0.0" library="testlib" withStandard="8.3.0" unmerged="True"
+
+'''Prologue'''
+This schema is designed to be lazy partnered with prerelease 8.3.0.
+
+!# start schema
+
+
+!# end schema
+
+'''Unit classes'''
+
+'''Unit modifiers'''
+
+'''Value classes'''
+
+'''Schema attributes'''
+
+'''Properties'''
+'''Epilogue'''
+A final section.
+
+!# end hed
