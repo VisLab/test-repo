@@ -40,7 +40,7 @@ jobs:
       - name: Run pre-commit on changed files
         run: |
           if [ -n "${{ steps.changed-files.outputs.all_changed_files }}" ]; then
-            pre-commit run --files ${{ steps.changed-files.outputs.all_changed_files }}
+            pre-commit run --files ${{ steps.changed-files.outputs.all_changed_files }} || exit 1
           else
             echo "No files have changed, skipping pre-commit."
           fi
